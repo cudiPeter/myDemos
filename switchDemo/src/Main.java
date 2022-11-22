@@ -1,25 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        // ctrl+shift+alt+L sayfa düzeni oluşturur.
-        char grade = 'F';
+        char grade = 'E';
 
-        switch (grade){
+        switch (grade) {
             case 'A':
-                System.out.println("Mükemmel Geçtiniz!");
+                System.out.println("Mükemmel, geçtiniz.");
                 break;
             case 'B':
-                System.out.println("Fena Değil Geçtiniz");
+                System.out.println("İyi not, geçtiniz.");
                 break;
             case 'C':
+                System.out.println("Biraz daha gayret, geçtiniz.");
+                break;
             case 'D':
-                System.out.println("Daha çok çalışmalısın Geçtiniz");
+                System.out.println("Çok çalışmalısın, geçtiniz.");
                 break;
             case 'F':
-                System.out.println("Maalesef kaldınız");
+                System.out.println("Kaldınız.");
                 break;
             default:
-                System.out.println("Geçersiz Not Girdiniz");
-
+                System.out.println("Geçersiz not girdiniz.");
         }
     }
 }
